@@ -1,0 +1,21 @@
+{
+  "name": "Publisher-frontend",
+  "authors": [
+    "SarasArya <saras.arya@gmail.com>"
+  ],
+  "description": "",
+  "main": "app.js",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "^1.7.2"
+  }
+}

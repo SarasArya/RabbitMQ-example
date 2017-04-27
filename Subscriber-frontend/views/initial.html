@@ -1,0 +1,7 @@
+<div>
+	<select ng-options="topic for topic in topics" multiple ng-model="selectedTopics"></select>
+	<button ng-click="submit()">Select multiple by holding control and press here then</button>
+	<div ng-repeat="(key,value) in message">
+		{{key}} {{value}}
+	</div>
+</div>
